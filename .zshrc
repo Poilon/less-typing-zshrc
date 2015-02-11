@@ -68,8 +68,8 @@ alias cm='git commit -m'
 alias ac='git add -A && git commit -m'
 alias h='ggpush'
 alias t='gst'
-alias hs='ggpush && gco staging && gpl && git merge'
-alias hp='gph && hub pull-request -b `echo $PROJECT_NAME`:`echo $BASE_BRANCH` -m `current_branch`'
+alias hs='h && gco staging && gpl && git merge'
+alias hp='h && hub pull-request -b `echo $PROJECT_NAME`:`echo $BASE_BRANCH` -m `current_branch`'
 alias p='hub pull-request -b `echo $PROJECT_NAME`:`echo $BASE_BRANCH` -m `current_branch`'
 
 x;
